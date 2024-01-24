@@ -91,9 +91,9 @@
           }
 
           document.getElementById('startButton').onclick = startGame;
-</script>
-        </body>
-        </html>
+        </script>
+    </body>
+    </html>
        
        
        
