@@ -3,7 +3,7 @@
 <head>
     <title>About Cheeseman Game</title>
     <style>
-        header {
+        <header> {
             color: white;
             background-color: indianred; 
             text-align: center;
