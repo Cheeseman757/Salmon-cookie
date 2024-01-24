@@ -5,8 +5,8 @@
     <style>
         <header> {
             color:white;
-            background-color: indianred; 
-            text-align: center;
+            background-color:indianred; 
+            text-align:center;
         }
         body {
             font-family: Arial, sans-serif;
@@ -16,8 +16,8 @@
           display: block;
           margin: 20px auto;
           padding: 10px 20px;
-          background-color: orangered;
-          color: white;
+          background-color:orangered;
+          color:white;
           border: none;
           cursor: pointer;
           text-align: center;
