@@ -1,5 +1,3 @@
-# about-me
-A website all about the Cheeseman!!!!!
 <!DOCTYPE html>
 <html lang="en">
 <head>
