@@ -63,7 +63,7 @@ function startGame() {
     for (let i = 0; i < questions.length; i++) {
         let userAnswer = askYesNoQuestion(questions[i]);
 
-        if (userAnswer === (correctAnswers[i] === 'yes')) {
+        if (userAnswer === (possibleAnswers[i] === 'yes')) {
             alert('Correct!');
             score++;
         } else {
