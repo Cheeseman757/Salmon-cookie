@@ -33,7 +33,7 @@ function askMultipleChoiceQuestion(question, possibleAnswers) {
     let guess;
     do {
         guess = prompt(question).toLowerCase();
-        if (guess.includes(possibleAnswers)) { 
+        if (correctAnswers.includes(guess)) { 
             alert("Correct!");
             return true;
         }else {
