@@ -28,12 +28,12 @@ function askNumericQuestion(question, correctanswer) {
     return false;
 }
 
-function askMultipleChoiceQuestion(question, correctAnswers) {
+function askMultipleChoiceQuestion(question, possibleAnswers) {
     let attempts = 5;
     let guess;
     do {
         guess = prompt(question).toLowerCase();
-        if (correctAnswers.includes(guess)) { 
+        if (possibleAnswers.includes(guess)) { 
             alert("Correct!");
             return true;
         }else {
