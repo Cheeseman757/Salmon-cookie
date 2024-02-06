@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', 'Verdana', sans-serif;
+    background-color: white;
+    color: #333;
+    /* Default text color */
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: salmon;
+    /* Header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Righteous', sans-serif;
+    color: salmon;
+}
+
+h2,
+h3 {
+    font-family: 'Righteous', sans-serif;
+    color: rgb(125, 86, 86);
+}
+
+a {
+    color: rgb(255, 0, 0);
+}
+
+div {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid salmon;
+    margin: 20px 0;
+}
+
+/* Add the following styles for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd; /* Add borders to cells */
+}
+
+td.numeric-cell {
+    text-align: center; /* Center-align numeric cells */
+    font-weight: bold; /* Make numeric cells bold */
+}
