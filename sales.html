@@ -72,29 +72,42 @@
         <h2>Click <a href="index.html">This</a> to go Back Home </h2>
     </header>
     <main>
-        <form id="table-form">
-<legend>Add a new store to the table!!</legend>
+      <form id="table-form">
+            <fieldset>
+                <legend>Add a new store to the table!!</legend>
                 <div class="input-container">
                 <label for="location-name">Name of Location: </label>
                 <input id="location-name" name="location" type="text" placeholder="Ex:Seattle">
-<div class="input-container">
+                </div>
+                <div class="input-container">
                 <label for="min-customers">Min. Customers Per Hour: </label>
                 <input id="min-customers" name="min-customers" type="number" placeholder="10">
- <div class="input-container">
+                </div>
+                <div class="input-container">
+                <label for="max-customers">Max Customers Per Hour: </label>
+                <input id="max-customers" name="max-customers" type="number" placeholder="10">
+                </div>
+                <div class="input-container">
                 <label for="avg-cookies">Average Cookies Per Sale: </label>
                 <input id="avg-cookies" name="avg-cookies" type="number" placeholder="10">
                 </div>
                 <div id="button-container">
                 <button type="submit">Submit</button>
-<table>
+                </div>
+            </fieldset>
+        </form>
+        <table>
             <thead>
                 <tr>
-
+        
                 </tr>
             </thead>
                 <tbody id="table-data">
                 </tbody>
                 <tbody id="daily-totals">
-</main>
- </body>
+                </tbody>
+        </table>
+    </main>
+    <script src="js/app.js"></script>
+</body>
 </html>
