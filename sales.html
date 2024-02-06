@@ -72,42 +72,40 @@
         <h2>Click <a href="index.html">This</a> to go Back Home </h2>
     </header>
     <main>
-      <form id="table-form">
+       <form id="new-city-form">
             <fieldset>
-                <legend>Add a new store to the table!!</legend>
-                <div class="input-container">
-                <label for="location-name">Name of Location: </label>
-                <input id="location-name" name="location" type="text" placeholder="Ex:Seattle">
+                <legend>Add a new store to the table!!!</legend>
+                <div>
+                    <label for="location-name">Location Name</label>
+                    <input id="location-name" for="location-name" type="text">
                 </div>
-                <div class="input-container">
-                <label for="min-customers">Min. Customers Per Hour: </label>
-                <input id="min-customers" name="min-customers" type="number" placeholder="10">
+                <div>
+                    <label for="min-customers">Minimum Customers Per Hour</label>
+                    <input id="min-customers" for="min-customers" type="number">
                 </div>
-                <div class="input-container">
-                <label for="max-customers">Max Customers Per Hour: </label>
-                <input id="max-customers" name="max-customers" type="number" placeholder="10">
+                <div>
+                    <label for="max-customers">Maximum Customers Per Hour</label>
+                    <input id="max-customers" for="max-customers" type="number">
                 </div>
-                <div class="input-container">
-                <label for="avg-cookies">Average Cookies Per Sale: </label>
-                <input id="avg-cookies" name="avg-cookies" type="number" placeholder="10">
+                <div>
+                    <label for="avg-cookies">Average Cookies Per Sale</label>
+                    <input id="avg-cookies" for="avg-cookies" type="number">
                 </div>
-                <div id="button-container">
-                <button type="submit">Submit</button>
-                </div>
+                <button type="submit">Click here to add!</button>
             </fieldset>
         </form>
+
         <table>
-            <thead>
-                <tr>
-        
-                </tr>
-            </thead>
-                <tbody id="table-data">
-                </tbody>
-                <tbody id="daily-totals">
-                </tbody>
+            <tbody id="table-body">
+            </tbody>
+            <tfoot id="table-footer">
+            </tfoot>
         </table>
-    </main>
-    <script src="js/app.js"></script>
-</body>
+
+        <script src="app.js"></script>
+        <footer>
+            <p>&copy; 2023 Pat's Salmon Cookies</p>
+        </footer>
+
+    </body>
 </html>
